@@ -1,7 +1,7 @@
 // Это только визуальный барьер. Пароль в клиентском JS можно посмотреть через инструменты разработчика.
 const ADMIN_PASSWORD = "admin123";
 // Укажите тот же URL Web App, что и в script.js.
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxOL9e9EGF99bTmvxKAExrLh8-cZxcYW4izMH_MxJKKq6wvl9XccfVqYXMeFMhXSKp86w/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxcyfm5SHPvM3cgMYJt4XhDFSfwGJ6U-2YqUbM8ASUPupbohQ0P8UnCWQRHnH2k5xHt/exec";
 
 const body = document.getElementById("responses-body");
 const statusMessage = document.getElementById("admin-message");
