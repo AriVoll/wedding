@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f3f1">
+  <meta name="description" content="Приглашение на свадьбу Данила и Дарьи — 21 августа 2027 года.">
+  <title>Данил & Дарья — свадебное приглашение</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-wash"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Приглашение на свадьбу</p>
+      <h1>Данил <span>&</span> Дарья</h1>
+      <div class="hero-divider"><span></span><i>✿</i><span></span></div>
+      <p class="hero-date">21 августа 2027</p>
+      <a class="button button-light" href="#rsvp">Ответить на приглашение</a>
+    </div>
+    <div class="bird bird-one" aria-hidden="true">⌁</div>
+    <div class="bird bird-two" aria-hidden="true">⌁</div>
+    <div class="hero-bottom">С любовью приглашаем разделить с нами этот день</div>
+  </header>
+
+  <main>
+    <section class="intro section">
+      <p class="eyebrow">Дорогие родные и друзья</p>
+      <h2>Мы будем счастливы<br>видеть вас рядом!</h2>
+      <p class="intro-copy">Совсем скоро начнётся наша семейная история, и мы хотим разделить один из самых важных дней с самыми близкими людьми.</p>
+      <div class="sprig" aria-hidden="true">❧</div>
+    </section>
+
+    <section class="details section" id="details">
+      <p class="eyebrow">Сохраните дату</p>
+      <h2>Когда и где?</h2>
+      <div class="detail-grid">
+        <article class="detail-card">
+          <div class="detail-icon">♡</div>
+          <p class="card-label">Дата</p>
+          <h3>21.08.2027</h3>
+          <p>Суббота</p>
+        </article>
+        <article class="detail-card">
+          <div class="detail-icon">◷</div>
+          <p class="card-label">Время</p>
+          <h3>Время уточняется</h3>
+          <p>Будем ждать вас — детали сообщим ближе к дате</p>
+        </article>
+        <article class="detail-card">
+          <div class="detail-icon">⌖</div>
+          <p class="card-label">Место</p>
+          <h3>Ресторан, Белый зал</h3>
+          <p>г. Краснодар, ул. Ростовское шоссе, 25/9</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://yandex.ru/maps/?text=Краснодар%2C%20Ростовское%20шоссе%2C%2025%2F9">Открыть на карте ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="schedule section">
+      <p class="eyebrow">Наш день</p>
+      <h2>Немного о празднике</h2>
+      <p class="intro-copy">Нас ждут тёплые встречи, объятия, улыбки и много счастливых моментов. Будем рады провести этот день вместе с вами.</p>
+      <div class="schedule-note"><span>21</span><span class="schedule-month">АВГУСТА<br>2027</span><span class="schedule-heart">♡</span></div>
+    </section>
+
+    <section class="rsvp section" id="rsvp">
+      <p class="eyebrow">Пожалуйста, ответьте до 01.08.2027</p>
+      <h2>Вы с нами?</h2>
+      <p class="form-intro">Заполните небольшую форму, чтобы мы могли всё подготовить для вас.</p>
+      <form id="rsvp-form" novalidate>
+        <div class="form-row">
+          <label>Имя *
+            <input name="firstName" type="text" autocomplete="given-name" required placeholder="Ваше имя">
+          </label>
+          <label>Фамилия *
+            <input name="lastName" type="text" autocomplete="family-name" required placeholder="Ваша фамилия">
+          </label>
+        </div>
+
+        <fieldset>
+          <legend>Сможете присутствовать? *</legend>
+          <div class="choice-row">
+            <label class="choice"><input type="radio" name="attendance" value="Приду!" required><span>С радостью приду!</span></label>
+            <label class="choice"><input type="radio" name="attendance" value="К сожалению, не получится"><span>К сожалению, не получится</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Как с вами связаться? *</legend>
+          <div class="choice-row contact-choice">
+            <label class="choice"><input type="radio" name="contactMethod" value="Email" checked><span>Email</span></label>
+            <label class="choice"><input type="radio" name="contactMethod" value="Телефон"><span>Телефон</span></label>
+          </div>
+          <label id="contact-label">Электронная почта *
+            <input id="contact-value" name="contact" type="email" autocomplete="email" placeholder="name@example.com" required>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Что предпочитаете из напитков?</legend>
+          <p class="field-hint">Можно выбрать несколько вариантов</p>
+          <div class="choice-row drinks">
+            <label class="check-choice"><input type="checkbox" name="alcohol" value="Вино"><span>Вино</span></label>
+            <label class="check-choice"><input type="checkbox" name="alcohol" value="Шампанское"><span>Шампанское</span></label>
+            <label class="check-choice"><input type="checkbox" name="alcohol" value="Крепкие напитки"><span>Крепкие напитки</span></label>
+          </div>
+        </fieldset>
+
+        <button class="button button-dark" type="submit" id="submit-button">Отправить ответ</button>
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        <p class="privacy-note">Ваш ответ поможет нам подготовить праздник. Спасибо!</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-flower">✿</div>
+    <p>С нетерпением ждём встречи!</p>
+    <strong>Данил & Дарья</strong>
+    <small>21 · 08 · 2027</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

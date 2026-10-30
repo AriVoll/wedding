@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ответы гостей — Данил & Дарья</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-body">
+  <main class="admin-wrap">
+    <p class="eyebrow">Данил & Дарья · 21.08.2027</p>
+    <h2>Ответы гостей</h2>
+    <p class="admin-intro">Список RSVP из Google Таблицы.</p>
+    <div class="admin-actions">
+      <button class="button button-dark" id="refresh-button" type="button">Обновить</button>
+      <a class="text-link" href="index.html">На страницу приглашения ↗</a>
+    </div>
+    <p id="admin-message" class="form-message" role="status"></p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Имя</th><th>Фамилия</th><th>Статус</th><th>Способ связи</th><th>Контакт</th><th>Алкоголь</th><th>Время ответа</th></tr></thead>
+        <tbody id="responses-body"><tr><td colspan="7">Загрузка…</td></tr></tbody>
+      </table>
+    </div>
+    <p class="privacy-note">Эта простая парольная защита предназначена только от случайного просмотра.</p>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>
