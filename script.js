@@ -1,5 +1,5 @@
 // Вставьте сюда URL развернутого Google Apps Script Web App (заканчивается на /exec).
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxOL9e9EGF99bTmvxKAExrLh8-cZxcYW4izMH_MxJKKq6wvl9XccfVqYXMeFMhXSKp86w/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxcyfm5SHPvM3cgMYJt4XhDFSfwGJ6U-2YqUbM8ASUPupbohQ0P8UnCWQRHnH2k5xHt/exec";
 
 const form = document.getElementById("rsvp-form");
 const methodRadios = document.querySelectorAll('input[name="contactMethod"]');
