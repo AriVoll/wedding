@@ -3,7 +3,7 @@
  * Вставьте код в script.google.com, задайте SPREADSHEET_ID и разверните как Web App.
  */
 
-const SPREADSHEET_ID = "1zNae73_qVsRDNf5krayV0a7pkfuGPnRtMkLoRLE8THw/edit?gid=0#gid=0";
+const SPREADSHEET_ID = "1zNae73_qVsRDNf5krayV0a7pkfuGPnRtMkLoRLE8THw";
 const SHEET_NAME = "Ответы";
 
 function getSheet_() {
